@@ -1,0 +1,129 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+/** headre-style **/
+header {
+  z-index: 100;
+  border-bottom: 2px solid beige;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+img {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.lang {
+  display: flex;
+  margin-left: 70%;
+  align-items: center;
+}
+.Fr,
+.En {
+  margin-top: 5px;
+  height: 35px;
+  width: 45px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border-color: none;
+  color: white;
+  background-color: white;
+  border: none;
+}
+.En {
+  background-color: #711a50;
+}
+.Fr {
+  color: rgb(0, 0, 0);
+  border: 1px solid #711a50;
+}
+/* section -Programe */
+
+.section-2 {
+  background-color: #ffeac5;
+}
+.section-prog {
+  text-align: center;
+  height: 200px;
+  background-color: #ffff;
+}
+.titre {
+  color: #711a50;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "poppins";
+  padding-top: 25px;
+}
+.commentaire-titre {
+  font-family: "poppins";
+  margin-top: -40px;
+}
+.section-image {
+  height: 350px;
+  width: 70%;
+  display: flex;
+  margin-left: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+.illustration-1,
+.illustration-2,
+.illustration-3 {
+  border: 2px solid #ef8242;
+  width: 23%;
+  height: 280px;
+  background-color: #ffff;
+}
+.illustration-1 {
+  border-radius: 0px 100px 0px 100px;
+  text-align: center;
+  font-family: "poppins";
+}
+.illustration-2 {
+  border-radius: 0px 0px 100px 100px;
+  text-align: center;
+  font-family: "poppins";
+}
+.illustration-3 {
+  border-radius: 100px 0px 100px 0px;
+  text-align: center;
+  font-family: "poppins";
+}
+.content-img {
+  display: flex;
+}
+.content-img img {
+  margin-top: 30px;
+  margin-right: -10px;
+}
+.content-img1 {
+  display: flex;
+}
+.motif {
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.avatar-2 {
+  margin-top: 25px;
+  margin-left: -100px;
+}
+.content-img2 {
+  display: flex;
+}
+.motif1 {
+  margin-left: 5px;
+  margin-top: 25px;
+}
+.avatar-3 {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.formulaire {
+  width: 70%;
+  margin-left: 30%;
+}
+input {
+  width: 70%;
+}
