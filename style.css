@@ -59,7 +59,7 @@ img {
 }
 .commentaire-titre {
   font-family: "poppins";
-  margin-top: -40px;
+  margin-top: 0px;
 }
 .section-image {
   height: 350px;
@@ -103,11 +103,11 @@ img {
   display: flex;
 }
 .motif {
-  margin-top: -50px;
+  margin-top: -40px;
   margin-left: -100px;
 }
 .avatar-2 {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: -100px;
 }
 .content-img2 {
@@ -122,34 +122,67 @@ img {
   margin-left: 25px;
 }
 .formulaire {
-  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
+  width: 70%;
+  margin-left: 15%;
 }
+
 input {
   width: 900px;
-  height: 50px;
-  border-radius: 5px;
-  border: none;
-  margin-top: 10px;
   padding-left: 20px;
+  margin-top: -50px;
+  height: 50px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px wheat;
+  border-radius: 10px;
+}
+div {
+  margin-top: 20px;
+}
+.form-texte {
+  text-align: center;
+  color: #711a50;
+  font-size: 40px;
+  font-weight: bold;
+}
+.text {
+  color: #711a50;
+  margin-top: 5px;
 }
 textarea {
-  width: 920px;
+  width: 900px;
   border: none;
-  margin-top: 10px;
-}
-.form-texte p {
-  text-align: center;
-  font-family: "poppins";
-  font-weight: bold;
-  font-size: 40px;
-  color: #711a50;
-}
-label {
+  box-shadow: 1px 1px 1px 1px wheat;
+  border-radius: 10px;
+  padding-left: 20px;
   padding-top: 20px;
+}
+.form-button-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+  margin-left: 15%;
+}
+.btn1 {
+  background-color: #711a50;
+  color: #ffeac5;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  width: 450px;
+  margin-left: 225px;
+}
+.btn2 {
+  background-color: #711a50;
+  color: #ffeac5;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+}
+::placeholder {
   color: #711a50;
-  font-size: 10px;
-  font-family: "poppins";
 }
