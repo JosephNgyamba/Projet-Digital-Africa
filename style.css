@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
+  font-family: "poppins";
 }
 /** headre-style **/
 header {
@@ -121,9 +122,34 @@ img {
   margin-left: 25px;
 }
 .formulaire {
-  width: 70%;
-  margin-left: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
 }
 input {
-  width: 70%;
+  width: 900px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+textarea {
+  width: 920px;
+  border: none;
+  margin-top: 10px;
+}
+.form-texte p {
+  text-align: center;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 40px;
+  color: #711a50;
+}
+label {
+  padding-top: 20px;
+  color: #711a50;
+  font-size: 10px;
+  font-family: "poppins";
 }
